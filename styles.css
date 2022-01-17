@@ -20,16 +20,16 @@ body {
    line-height: 50px ;
    margin: 0px auto;
    width: 844px;
-   background-color: #ffffff;
-   height: 50px;
+   /*background-color: #ffffff;*/
+   height: 55px;
    padding: 0 78px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+   
 }
 
 .header h1 {
     color: #ef8354;
-    font-variant: small-caps;
-
+    font-family: Apple Chancery, cursive ;
 }
 
 /*Navigation CSS*/
@@ -57,11 +57,11 @@ body {
 .nav a {
     text-align: center;
     padding: 15px 16px;
-    color: rgb(252, 246, 246);
+    color: #ffffff;
     text-decoration: none;
 }
 .nav a:hover {
-    background-color: rgb(42, 96, 65);
+    background-color:#4f5d75;
 }
 
 
@@ -69,14 +69,14 @@ body {
 .main {
     width: 844px;
     height:auto;
-    background-color:rgb(252, 246, 246);
+    background-color: #ffffff;
     border-bottom: 10px;
     margin: auto;
     padding: 10px 78px;
 }
 
 .main h2 {
-    color: rgb(42, 96, 65)  ;
+    color: #2d3142  ;
 }
 
 .main ul {
@@ -104,14 +104,14 @@ iframe {
 /*Footer CSS*/
 .footer {
     width: 844px ;
-    background-color: rgb(10, 34, 57);
+    background-color: #4f5d75;
     height: 30px;
     margin: 10px auto;
     padding: 0 78px;
 }
 
 .footer p {
-    color: rgb(227, 151, 116);
+    color: #ef8354;
     margin: auto;
     text-align: center;
     top: 5px;
