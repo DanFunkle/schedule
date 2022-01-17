@@ -1,0 +1,112 @@
+/*
+    Author: Daniil
+*/
+
+/*Body*/
+
+body {
+    background-color:rgb(149, 177, 169);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Header CSS*/
+.header {
+   text-align: center;
+   line-height: 50px ;
+   margin: 0px auto;
+   width: 844px;
+   background-color: rgb(252, 246, 246);
+   height: 50px;
+   padding: 0 78px;
+}
+
+.header h1 {
+    color: rgb(227, 151, 116);
+    font-variant: small-caps;
+
+}
+
+/*Navigation CSS*/
+.nav {
+    background-color: rgb(10, 34, 57);
+    font-size: large;
+    height: 50px;
+    width: 844px;
+    margin: 10px auto;
+    padding: 0 78px;
+}
+
+.nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li {
+    padding-top: 15px ;
+    display: inline-block;
+}
+
+.nav a {
+    text-align: center;
+    padding: 15px 16px;
+    color: rgb(252, 246, 246);
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: rgb(42, 96, 65);
+}
+
+
+/*Main Content CSS*/
+.main {
+    width: 844px;
+    height:auto;
+    background-color:rgb(252, 246, 246);
+    border-bottom: 10px;
+    margin: auto;
+    padding: 10px 78px;
+}
+
+.main h2 {
+    color: rgb(42, 96, 65)  ;
+}
+
+.main ul {
+   margin: 0;
+   padding: 0;
+   list-style-position: inside;
+   line-height: 1.5;
+}
+
+iframe {
+    border: none;
+}
+
+.nobullet {
+    list-style: none;
+}
+
+.nested {
+    list-style: none;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+
+/*Footer CSS*/
+.footer {
+    width: 844px ;
+    background-color: rgb(10, 34, 57);
+    height: 30px;
+    margin: 10px auto;
+    padding: 0 78px;
+}
+
+.footer p {
+    color: rgb(227, 151, 116);
+    margin: auto;
+    text-align: center;
+    top: 5px;
+    position: relative;
+}
