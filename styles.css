@@ -1,11 +1,17 @@
 /*
     Author: Daniil
+    ColorScheme:
+        White: rgb(255, 255, 255)     hex #ffffff
+        Silver:  rgb(191, 192, 192)     hex #bfc0c0
+        Mandarin: rgb(239, 131, 84     hex #ef8354
+        Space Cadet: rgb(45, 49, 66)     hex #2d3142
+        Independence:   rgb(79, 93, 117)     hex #4f5d75
 */
 
 /*Body*/
 
 body {
-    background-color:rgb(149, 177, 169);
+    background-color:#bfc0c0;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*Header CSS*/
@@ -14,20 +20,21 @@ body {
    line-height: 50px ;
    margin: 0px auto;
    width: 844px;
-   background-color: rgb(252, 246, 246);
+   background-color: #ffffff;
    height: 50px;
    padding: 0 78px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header h1 {
-    color: rgb(227, 151, 116);
+    color: #ef8354;
     font-variant: small-caps;
 
 }
 
 /*Navigation CSS*/
 .nav {
-    background-color: rgb(10, 34, 57);
+    background-color: #2d3142;
     font-size: large;
     height: 50px;
     width: 844px;
